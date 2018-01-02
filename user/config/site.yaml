@@ -1,0 +1,41 @@
+title: Partner-wod
+default_lang: pt
+author:
+  name: 'Hugo Viana'
+  email: Hugohaviana@gmail.com
+  copyright: 'Copyright 2017 Hugo Viana. All Rights Reserved.'
+taxonomies:
+  - category
+  - tag
+  - featured
+metadata:
+  description: 'PartnerWod'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+routes:
+  /something/else: /blog/sample-3
+  /another/one/here: /blog/sample-3
+  '/new/*': '/blog/*'
+blog:
+  route: /blog
+logo: logo.png
+header:
+  title: null
+  description: null
+  background: background.jpg
+social:
+  -
+    url: 'https://www.instagram.com/partnerwod2017/'
+    icon: instagram
+  -
+    url: 'https://www.facebook.com/partnerwod/'
+    icon: facebook
+footer:
+  widget:
+    title: 'Sobre o PartnerWod'
+    description: 'Esperem por um blog super versátil sempre com os melhores artigos sobre desporto, alimentação ou viagens.'
+    link: null
+copyright: 'Copyright © 2017. All Rights Reserved.'
