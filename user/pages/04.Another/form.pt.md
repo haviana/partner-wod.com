@@ -1,5 +1,0 @@
----
-title: Contacto
----
-Dmitry Klokov
-
