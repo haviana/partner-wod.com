@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://archives/archives.yaml',
-    'modified' => 1509091112,
+    'modified' => 1515712013,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
