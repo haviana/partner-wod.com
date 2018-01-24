@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/partner-wod.com/user/config/system.yaml',
-    'modified' => 1515712757,
+    'modified' => 1516814772,
     'data' => [
         'home' => [
             'alias' => '/home'
@@ -43,6 +43,12 @@ return [
             'twig' => true,
             'shutdown' => [
                 'close_connection' => true
+            ]
+        ],
+        'languages' => [
+            'translations' => true,
+            'supported' => [
+                0 => 'pt'
             ]
         ]
     ]

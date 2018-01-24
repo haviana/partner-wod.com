@@ -5,6 +5,11 @@
          <div class="embed-vimeo" style="text-align:center;"><iframe src="{{ page.header.vimeo.src }}" width="{{ page.header.vimeo.width }}" height="{{ page.header.vimeo.height }}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
       </div>
       {% endif %}
+      {% if page.header.youtube %}
+      <div class="rescue-column rescue-one-half rescue-column-first  rescue-all">
+         <div class="embed-youtube" style="text-align:center;"><iframe src="{{ page.header.youtube.src }}" width="{{ page.header.youtube.width }}" height="{{ page.header.youtube.height }}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+      </div>
+      {% endif %}
       <div class="rescue-column rescue-one-half rescue-column-last  rescue-all">
          {{ page.content }}
          <p>

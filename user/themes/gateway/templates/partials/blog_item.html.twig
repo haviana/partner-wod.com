@@ -45,12 +45,12 @@
     {% elseif truncate and page.summary != page.content %}
     <p>
       {{ page.summary|striptags }}
-      <a href="{{ page.url }}">more...</a>
+      <a href="{{ page.url }}">{{ 'HEADER_SUB_TEXT'|t }}</a>
     </p>
     {% elseif truncate %}
     <p>
       {{ page.content|truncate(550)|striptags }}
-      <a href="{{ page.url }}">more...</a>
+      <a href="{{ page.url }}">{{ 'HEADER_SUB_TEXT'|t }}</a>
     </p>
     {% else %}
 

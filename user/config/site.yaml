@@ -3,7 +3,7 @@ default_lang: pt
 author:
   name: 'Hugo Viana'
   email: Hugohaviana@gmail.com
-  copyright: 'Copyright 2017 Hugo Viana. All Rights Reserved.'
+  copyright: 'Copyright 2017 Hugo Viana. Todos os diretos reservados'
 taxonomies:
   - category
   - tag
@@ -23,8 +23,8 @@ blog:
   route: /blog
 logo: logo.png
 header:
-  title: null
-  description: null
+  title: 
+  description: 
   background: background.jpg
 social:
   -

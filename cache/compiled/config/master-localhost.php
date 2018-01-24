@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1515713365,
-    'checksum' => '25cb1489c6068041abd7006c5b3a040d',
+    'timestamp' => 1516816539,
+    'checksum' => 'b30fd7b801e2a2c32cbd3639c65e74f8',
     'files' => [
         'user/config' => [
             'media' => [
@@ -11,7 +11,7 @@ return [
             ],
             'plugins/aboutme' => [
                 'file' => 'user/config/plugins/aboutme.yaml',
-                'modified' => 1515713364
+                'modified' => 1516816449
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1515712012
+                'modified' => 1516816538
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1515712757
+                'modified' => 1516814772
             ]
         ],
         'system/config' => [
@@ -108,6 +108,10 @@ return [
             'plugins/taxonomylist' => [
                 'file' => 'user/plugins/taxonomylist/taxonomylist.yaml',
                 'modified' => 1515712014
+            ],
+            'plugins/youtube' => [
+                'file' => 'user/plugins/youtube/youtube.yaml',
+                'modified' => 1516751486
             ]
         ]
     ],
@@ -117,10 +121,8 @@ return [
                 'enabled' => true,
                 'built_in_css' => true,
                 'name' => 'Sobre nós',
-                'title' => 'Sobre nós',
-                'description' => 'Hugo e Soraia! Prazer!
-
-Somos um casal comum, com rotinas normais, sofremos do tão chato stress diário, ela Licenciada em Recursos Humanos e ele Mestre em Engenharia Electrotécnica e de computadores, nada fora do comum, portanto.
+                'title' => 'Hugo e Soraia! Prazer!',
+                'description' => 'Somos um casal comum, com rotinas normais, sofremos do tão chato stress diário, ela Licenciada em Recursos Humanos e ele Mestre em Engenharia Electrotécnica e de computadores, nada fora do comum, portanto.
 
 A parte interessante do nosso dia inicia mesmo após a saída do escritório, já no final do dia começa a nossa segunda e a melhor parte do dia! Final do dia significa hora de ir para a box de Crossfit! Essa é a hora de aliviar o corpo e a mente!
 
@@ -128,13 +130,13 @@ Fazendo disto um estilo de vida conseguimos manter-nos saudavéis no meio de tod
 
 Fixe mesmo é que no meio de tudo isto este blog te ajude a motivar e a apaixonares-te tanto pelo Crossfit e por um estilo de vida saudável como nós! Bem, e se não tiveres paixão pelo Crossfit que seja por qualquer outra modalidade que te faça feliz...
 
-Nos entretantos, se tiveres alguma dúvida ou perguntinha em que possamos dar uma mãozinha, não somos nenhuns "experts" mas podemos sempre dar uma ajuda através do contacto XXXXXX',
+Nos entretantos, se tiveres alguma dúvida ou perguntinha em que possamos dar uma mãozinha, não somos nenhuns "experts" mas podemos sempre dar uma ajuda,contacta-nos quer via Facebook, Instagram ou email.',
                 'picture_src' => [
-                    'user/plugins/aboutme/assets/avatars/santa.jpg' => [
-                        'name' => 'santa.jpg',
+                    'user/plugins/aboutme/assets/avatars/18156766_1697721113601659_695924214116799703_o.jpg' => [
+                        'name' => '18156766_1697721113601659_695924214116799703_o.jpg',
                         'type' => 'image/jpeg',
-                        'size' => 43391,
-                        'path' => 'user/plugins/aboutme/assets/avatars/santa.jpg'
+                        'size' => 154372,
+                        'path' => 'user/plugins/aboutme/assets/avatars/18156766_1697721113601659_695924214116799703_o.jpg'
                     ]
                 ],
                 'gravatar' => [
@@ -143,7 +145,7 @@ Nos entretantos, se tiveres alguma dúvida ou perguntinha em que possamos dar um
                     'size' => 100
                 ],
                 'social_pages' => [
-                    'enabled' => true,
+                    'enabled' => false,
                     'use_font_awesome' => false,
                     'pages' => [
                         'facebook' => [
@@ -517,6 +519,30 @@ Nos entretantos, se tiveres alguma dúvida ou perguntinha em que possamos dar um
                 'enabled' => true,
                 'route' => '/blog'
             ],
+            'youtube' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'add_editor_button' => true,
+                'player_parameters' => [
+                    'autoplay' => 0,
+                    'cc_load_policy' => 0,
+                    'color' => 'red',
+                    'controls' => 1,
+                    'disablekb' => 0,
+                    'enablejsapi' => 0,
+                    'fs' => 1,
+                    'hl' => '',
+                    'iv_load_policy' => 1,
+                    'loop' => 0,
+                    'modestbranding' => 0,
+                    'origin' => '',
+                    'playsinline' => 0,
+                    'rel' => 1,
+                    'showinfo' => 1,
+                    'vq' => 'default'
+                ],
+                'privacy_enhanced_mode' => false
+            ],
             'jscomments' => [
                 'enabled' => false,
                 'provider' => '',
@@ -819,7 +845,7 @@ Nos entretantos, se tiveres alguma dúvida ou perguntinha em que possamos dar um
             'author' => [
                 'name' => 'Hugo Viana',
                 'email' => 'Hugohaviana@gmail.com',
-                'copyright' => 'Copyright 2017 Hugo Viana. All Rights Reserved.'
+                'copyright' => 'Copyright 2017 Hugo Viana. Todos os diretos reservados'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -905,7 +931,7 @@ Nos entretantos, se tiveres alguma dúvida ou perguntinha em que possamos dar um
             'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
             'languages' => [
                 'supported' => [
-                    
+                    0 => 'pt'
                 ],
                 'include_default_lang' => true,
                 'translations' => true,

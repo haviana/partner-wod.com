@@ -2,14 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/partner-wod.com/user/config/site.yaml',
-    'modified' => 1515712012,
+    'modified' => 1516816538,
     'data' => [
         'title' => 'Partner-wod',
         'default_lang' => 'pt',
         'author' => [
             'name' => 'Hugo Viana',
             'email' => 'Hugohaviana@gmail.com',
-            'copyright' => 'Copyright 2017 Hugo Viana. All Rights Reserved.'
+            'copyright' => 'Copyright 2017 Hugo Viana. Todos os diretos reservados'
         ],
         'taxonomies' => [
             0 => 'category',
